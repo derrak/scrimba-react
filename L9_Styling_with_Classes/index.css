@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+/* selects all li within nav-items class */
+/* so you don't have to add a class to each li */
+.nav-items > li {
+  padding: 10px;
+}
+
+.nav-logo {
+  width: 60px;
+}
